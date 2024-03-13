@@ -12,9 +12,9 @@ const Header = () => {
         document.body.scrollTop > 100 ||
         document.documentElement.scrollTop > 100
       ) {
-        mainHeader.current.classList.add("active");
+        mainHeader?.current.classList.add("active");
       } else {
-        mainHeader.current.classList.remove("active");
+        mainHeader?.current.classList.remove("active");
       }
     }
     
