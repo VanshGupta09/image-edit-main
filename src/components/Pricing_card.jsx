@@ -22,7 +22,7 @@ export const Pricing_card = ({ title, sub_title, s_title_span, p, list,btn_value
             </li>
             {list?.map((elm, ind) => {
               return (
-                <li>
+                <li key={ind}>
                   <p>{elm}</p>
                 </li>
               );

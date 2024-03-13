@@ -1,3 +1,4 @@
+"use client";
 import Layouts from "@/components/Layouts";
 import Head from "next/head";
 import React, { useState } from "react";
@@ -11,7 +12,7 @@ import ChooseUs from "@/styles/ChooseUs";
 import { Pricing_card } from "@/components/Pricing_card";
 
 /* about page */
-const index = () => {
+const Index = () => {
   const [activeTab, setActiveTab] = useState(true);
 
   return (
@@ -142,4 +143,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;
