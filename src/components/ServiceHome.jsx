@@ -17,7 +17,7 @@ const ServiceHome = ({ data }) => {
                 {data.content}
               </p>
               {
-                data.button ? <Link className="btn" href="/">
+                data.button ? <Link className="btn" href={data.btnLink}>
                   Read More
                 </Link> : ""
               }

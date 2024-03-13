@@ -49,22 +49,6 @@ const Service1 = ({ data }) => {
                   <SliderPopup screen={{ sc_1: 3, sc_2: 3, sc_3: 3, sc_4: 3 }} />
                 </div>
             }
-            {/* if(imgSec){
-              <div
-                className="col50 imageTab"
-              // style={{ order: data.imageDir ? 2 : 1 }}
-              >
-                <img src={"/assets/SectionImg.png"} alt="Image Edite" />
-              </div>
-            }else{
-              <div
-                className="col50 imageTab"
-                style={{ order: data.imageDir ? 2 : 1 }}
-              >
-                <img src={"/assets/before.jpg"} width={500} height={500} alt="Image Edite" />
-                <SliderPopup screen={{ sc_1: 3, sc_2: 3, sc_3: 3, sc_4: 3 }} />
-              </div>
-            } */}
           </div>
         </div>
       </section>

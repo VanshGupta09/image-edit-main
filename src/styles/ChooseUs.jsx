@@ -1,20 +1,19 @@
 import React from "react";
 import ChooseCard from "@/components/ChooseCard";
 
-const ChooseUs = () => {
+const ChooseUs = ({ data }) => {
     return <>
         <div className="choose-us">
             <div className="container">
                 <div className="flex gap">
                     <div className="col60">
-                        <p><span>Why choose us</span></p>
-                        <h3>What Makes Us Different?</h3>
-                        <p>Discover what sets us apart in the industry - from modern technology to a global approach. At Refine Pixel we redefine editing.</p>
+                        <p><span>{data?.subTitle}</span></p>
+                        <h3>{data?.title}</h3>
+                        <p>{data?.para}</p>
                         <div className="flex cards">
-                            <ChooseCard />
-                            <ChooseCard />
-                            <ChooseCard />
-                            <ChooseCard />
+                            {data?.cards.map((elm,ind) => (
+                                <ChooseCard key={ind} card={elm}/>
+                            ))}
                         </div>
                     </div>
                     <div className="col40 chooseimg">

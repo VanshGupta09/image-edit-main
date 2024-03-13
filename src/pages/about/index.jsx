@@ -34,7 +34,7 @@ const index = () => {
           }}
         />
         <div className="ped40"></div>
-        <ChooseUs />
+        <ChooseUs data={{ subTitle: "Why Choose Us?", title: "What Makes Us Different?", para: "Discover what sets us apart in the industry - from modern technology to a global approach. At Refine Pixel we redefine editing.", cards: [{ title: "Modern Technology", para: "Our state-of-the-art technology at Refine Pixel enhances and streamlines the editing process. It positions us at the industry's forefront." }, { title: "Global Perspective", para: "We have a client base all over the world. It encourages us to bring diverse and multicultural perspectives to our editing services." }, { title: "Competitive Pricing", para: "We offer our services at the best prices! Without compromising on the quality. We ensure our services are accessible to all, be it an individual or a business." }, { title: "24/7 Customer Support", para: "We offer 24/7 customer support and assistance. We address every client query, no matter when or where you're calling from." }] }} />
         <Textmonial />
         <ImgSection />
       </Layouts>
