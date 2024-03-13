@@ -1,0 +1,23 @@
+{
+  "name": "image_editor",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next build && next export",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "eslint": "8.47.0",
+    "eslint-config-next": "13.4.19",
+    "next": "13.4.19",
+    "react": "18.2.0",
+    "react-compare-image": "^3.4.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.10.1",
+    "react-multi-carousel": "^2.8.4",
+    "react-slideshow-image": "^4.2.1"
+  }
+}

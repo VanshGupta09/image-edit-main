@@ -1,0 +1,168 @@
+:root {
+  --white: #fff;
+  --red: #7c0000;
+  --blue: blue;
+  --black: #000;
+  --gray: #819691;
+  --yellow: #fec42d;
+  --grey: #f2f3f3;
+  --greenbg: #849994;
+  --darkbg: #2c2727;
+}
+
+/* font */
+@font-face {
+  font-family: 'Candara';
+  src: url('/assets/font/Candara.ttf') format('ttf')
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+/* font */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.white{
+  color: var(--white);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Candara';
+  font-weight: 400;
+}
+
+img {
+  display: flex;
+}
+
+svg {
+  display: flex;
+}
+
+.justSpaceBetween {
+  justify-content: space-between;
+}
+.justSpaceCenter {
+  justify-content: center;
+}
+
+.alignCenter {
+  align-items: center;
+}
+.text_Center{
+  text-align: center;
+}
+.gap {
+  gap: 50px;
+}
+.gap30 {
+  gap: 30px;
+}
+.gap10 {
+  gap: 10px;
+}
+.wrap{
+  flex-wrap: wrap;
+}
+.bglight{background: #f2f3f3 !important;}
+.flex {
+  display: flex;
+}
+.space{justify-content: space-between;}
+.col50 {
+  width: 50%;
+}
+
+.col60 {
+  width: 60%;
+}
+.col100 {
+  width: 100%;
+}
+.mt10{
+  margin-top: 10px;
+}
+
+.textCenter{
+  text-align: center;
+}
+
+.ped40{padding-bottom: 40px;}
+.ped30{padding-bottom: 30px;}
+.col40 {
+  width: 40%;
+}
+
+.col30 {
+  width: 30%;
+}
+
+.ped20 {
+  padding-top: 20px;
+}
+
+a.btn {
+  background: #819691;
+  padding: 18px 56px;
+  display: inline-block;
+  margin-top: 40px;
+  color: #fff;
+  font-family: 'Candara';
+  font-size: 18px;
+}
+
+a.btn:hover {
+  background: #606f6b;
+}
+
+p {
+  font-family: 'Candara';
+  font-size: 18px;
+  color: #4c4c4c;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+h3 {
+  font-family: 'Prata', serif;
+  font-size: 28px;
+  color: #333;
+  line-height: 45px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+h4 {
+  font-family: 'Prata', serif;
+  font-size: 25px;
+  color: #333;
+  font-weight: 500;
+}
+h5 {
+  font-family: 'Candara', serif;
+  font-size: 20px;
+  color: #333;
+  font-weight: 500;
+}
+
+input,textarea{
+  font-family: 'Candara';
+  font-size: 16px;
+}
+
+.paraSpace {
+  margin-top: 20px;
+}
