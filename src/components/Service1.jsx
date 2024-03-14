@@ -38,7 +38,7 @@ const Service1 = ({ data }) => {
                   className="col50 imageTab"
                   style={{ order: data.imageDir ? 2 : 1 }}
                 >
-                  <img src={"/assets/before.jpg"} width={500} height={500} alt="Image Edite" />
+                  <img src={data?.mainImgPath} width={500} height={500} alt="Image Edite" />
                   <SliderPopup imgData={{ subImagesArray: data?.subImagesArray,subImagesTitle:data?.subImagesTitle}} screen={{ sc_1: 3, sc_2: 3, sc_3: 3, sc_4: 3 }} />
                 </div>
             }
