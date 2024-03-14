@@ -193,15 +193,15 @@ const Imagesediting = () => {
               <div className="col50">
                 {" "}
                 <ReactCompareImage
-                  leftImage={"/assets/after.webp"}
-                  rightImage={"/assets/before.webp"}
+                  leftImage={"./assets/ColourCorrection/16_a.jpg"}
+                  rightImage={"./assets/ColourCorrection/16_b.jpg"}
                 />
               </div>
               <div className="col50">
                 {" "}
                 <ReactCompareImage
-                  leftImage={"/assets/after.webp"}
-                  rightImage={"/assets/before.webp"}
+                  leftImage={"./assets/ColourCorrection/14_a.jpg"}
+                  rightImage={"./assets/ColourCorrection/14_b.jpg"}
                 />
               </div>
             </div>
