@@ -1,4 +1,4 @@
-import React, {  useState } from "react";
+import React, { useState } from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { AiOutlineCloseCircle } from "react-icons/ai";
@@ -28,17 +28,14 @@ const SliderPopup = ({ screen, head_white, dataImg_, imgData }) => {
       items: screen.sc_4,
     },
   };
-  imgData?.subImagesArray?.map((elm) => {
-    console.log(elm.aftimg);
-  })
-  console.log(imgData?.subImagesArray?.length, imgData, imgData?.subImagesArray);
+
+  console.log(imgData?.subImagesArray?.length, imgData);
 
   const next = () => {
-    if (imgData?.subImagesArray?.length - 1 > data) {
+    if (dataImg.length - 1 > data) {
       setData(data + 1);
-      // console.log(imgData?.subImagesArray?.length, data);
+      console.log(dataImg.length, data);
     } else {
-      setData(0);
       // console.log("stop");
       return;
     }
@@ -47,7 +44,6 @@ const SliderPopup = ({ screen, head_white, dataImg_, imgData }) => {
     if (data > 0) {
       setData(data - 1);
     } else {
-      setData(imgData?.subImagesArray?.length - 1);
       // console.log("stop");
       return;
     }
@@ -72,7 +68,6 @@ const SliderPopup = ({ screen, head_white, dataImg_, imgData }) => {
       befimg: "/assets/ccb4.jpg",
     },
   ];
-
   return (
     <>
       <div className="sliderPopup">
@@ -84,50 +79,43 @@ const SliderPopup = ({ screen, head_white, dataImg_, imgData }) => {
           arrows={false}
           responsive={responsive}
         >
-          {(imgData?.subImagesArray) ?
-            imgData?.subImagesArray?.map((ele, i) => {
-              return (
-                <div
-                  key={i}
-                  onClick={() => {
-                    setData(i);
-                    setActivePop(!activePop);
-                  }}
-                  className="slideCard"
-                >
-                  <img
-                    style={{ width: "100%", height: "auto" }}
-                    src={ele?.aftimg}
-                    width={1000}
-                    height={1000}
-                    alt="Image Edite"
-                  />
-                </div>
-              );
-            }) :
-            (<div></div>)
-          }
+          {dataImg?.map((ele, i) => {
+            return (
+              <div
+                key={i}
+                onClick={() => {
+                  setData(i);
+                  setActivePop(!activePop);
+                }}
+                className="slideCard"
+              >
+                <img
+                  style={{ width: "100%", height: "auto" }}
+                  src={ele?.aftimg}
+                  width={1000}
+                  height={1000}
+                  alt="Image Edite"
+                />
+              </div>
+            );
+          })}
         </Carousel>
       </div>
 
-      {
-        activePop ? <div className={`popup ${activePop ? "active" : ""}`}>
-          <div className="main">
-            <p className="popup-title">{imgData?.subImagesTitle }</p>
-            <div className="left" onClick={prev}>
-              <AiOutlineLeft />
-            </div>
-            <div className="right" onClick={next}>
-              <AiOutlineRight />
-            </div>
-            <span className="close" onClick={() => setActivePop(!activePop)}>
-              <AiOutlineCloseCircle />
-            </span>
-            <AfterBefore after={imgData?.subImagesArray[data]?.aftimg} before={imgData?.subImagesArray[data]?.befimg} />
+      <div className={`popup ${activePop ? "active" : ""}`}>
+        <div className="main">
+          <div className="left" onClick={prev}>
+            <AiOutlineLeft />
           </div>
-        </div> : ""
-      }
-
+          <div className="right" onClick={next}>
+            <AiOutlineRight />
+          </div>
+          <span className="close" onClick={() => setActivePop(!activePop)}>
+            <AiOutlineCloseCircle />
+          </span>
+          <AfterBefore after={dataImg[data]?.aftimg} before={dataImg[data]?.befimg} />
+        </div>
+      </div>
     </>
   );
 };

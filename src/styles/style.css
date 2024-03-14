@@ -161,6 +161,15 @@ ul.level_1_nav li:hover {
     padding: 18px 56px;
     margin-top: 30px;
 }
+.service1 .popup-title{
+    position: absolute;
+    color: white;
+    top: 10px;
+    left: 10px;
+    z-index: 99;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
 .service2 {
     background-color: #ffffff;
     padding: 40px 40px 40px 40px;
