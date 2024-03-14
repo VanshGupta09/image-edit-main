@@ -51,7 +51,7 @@ const Imagesediting = () => {
         <Aboutbred bread={"Images Editing"} />
         <div className="ped40"></div>
         <Service1 data={{
-          imageDir: false, mainImgPath: "/assets/before.jpg", button: true, subTitle: "Colour correction", title: "Color Magic: Brighten Your Images with Refine Pixel.", btnText: "Buy Now​ Call Today​", paraArray: ["We also offer hybrid editing services at competitive prices! Our designers and editors merge various editing styles to create visually unique images.", "We create images using our best elements and expertise.Our approach includes blending lively colors with modern compositions or interesting textures.", " We guarantee to deliver a classic charm and one-of-a-kind visual experience. So, enhance your images with our hybrid edits. "],
+          imageDir: false, mainImgPath: "/assets/ColourCorrection/main-img.jpg", button: true, subTitle: "Colour correction", title: "Color Magic: Brighten Your Images with Refine Pixel.", btnText: "Buy Now​ Call Today​", paraArray: ["We also offer hybrid editing services at competitive prices! Our designers and editors merge various editing styles to create visually unique images.", "We create images using our best elements and expertise.Our approach includes blending lively colors with modern compositions or interesting textures.", " We guarantee to deliver a classic charm and one-of-a-kind visual experience. So, enhance your images with our hybrid edits. "],
           subImagesTitle: "Color Correction", subImagesArray: [
             {
               aftimg: "./assets/ColourCorrection/3_a.jpg",
@@ -75,7 +75,7 @@ const Imagesediting = () => {
           ]
         }} />
         <Service1 data={{
-          imageDir: true, mainImgPath: "/assets/before.jpg", button: true, subTitle: "Culling", title: "Sharp Cut: Image Culling & Selection", btnText: "Buy Now​ Call Today​", paraArray: ["Cut through the clutter effortlessly! At Refine Pixel, our image culling & selection service simplifies your picture-picking process.", "Our skilled team meticulously analyzes each image, eliminating blurriness, duplicates, and unflattering angles. What's left? A refined selection of your best shots, saving you time and effort.", "Let us handle the heavy lifting while you enjoy a streamlined selection process!"],
+          imageDir: true, mainImgPath: "/assets/culling/culling-img.jpg", button: true, subTitle: "Culling", title: "Sharp Cut: Image Culling & Selection", btnText: "Buy Now​ Call Today​", paraArray: ["Cut through the clutter effortlessly! At Refine Pixel, our image culling & selection service simplifies your picture-picking process.", "Our skilled team meticulously analyzes each image, eliminating blurriness, duplicates, and unflattering angles. What's left? A refined selection of your best shots, saving you time and effort.", "Let us handle the heavy lifting while you enjoy a streamlined selection process!"],
           subImagesTitle: "Culling", subImagesArray: [
             {
               aftimg: "./assets/newbornbaby/1_a.jpg",
@@ -110,20 +110,17 @@ const Imagesediting = () => {
               befimg: "./assets/retouching/removeChangingBackground/3_b.jpg",
             },
             {
-              aftimg: "./assets/retouching/removeChangingBackground/2_a.jpg",
-              befimg: "./assets/retouching/removeChangingBackground/2_b.jpg",
+              aftimg: "./assets/newbornbaby/1_a.jpg",
+              befimg: "./assets/newbornbaby/1_b.jpg",
             },
             {
-              aftimg: "./assets/retouching/removeChangingBackground/3_a.jpg",
-              befimg: "./assets/retouching/removeChangingBackground/3_b.jpg",
-            }, {
-              aftimg: "./assets/retouching/removeChangingBackground/2_a.jpg",
-              befimg: "./assets/retouching/removeChangingBackground/2_b.jpg",
+              aftimg: "./assets/RealEstate/3_a.jpg",
+              befimg: "./assets/RealEstate/3_b.jpg",
             },
           ]
         }} />
         <Service1 data={{
-          imageDir: true, mainImgPath: "/assets/before.jpg", button: true, subTitle: " Real-estate Editing", title: "Pixel Perfect: Real Estate Editing Expertise", btnText: "Buy Now​ Call Today​", paraArray: ["Make your property pop with our simple and quirky real estate editing service! At Refine Pixel, we take your ordinary photos and turn them into eye-catching showcases.", "Our experts enhance lighting, colors, and composition to create captivating images that stand out in the market. From beautiful panoramas to enticing close-ups, we ensure your listings catch the eye of potential buyers.", " Let us work our magic on your real estate photos and watch as your property sells itself!"],
+          imageDir: true, mainImgPath: "/assets/RealEstate/main-img.jpg", button: true, subTitle: " Real-estate Editing", title: "Pixel Perfect: Real Estate Editing Expertise", btnText: "Buy Now​ Call Today​", paraArray: ["Make your property pop with our simple and quirky real estate editing service! At Refine Pixel, we take your ordinary photos and turn them into eye-catching showcases.", "Our experts enhance lighting, colors, and composition to create captivating images that stand out in the market. From beautiful panoramas to enticing close-ups, we ensure your listings catch the eye of potential buyers.", " Let us work our magic on your real estate photos and watch as your property sells itself!"],
           subImagesTitle: "Real Estate", subImagesArray: [
             {
               aftimg: "./assets/RealEstate/1_a.jpg",
@@ -141,7 +138,7 @@ const Imagesediting = () => {
         }} />
         <Thirdservisec data={{ title: "Signature Snips: Image Editing Service", subTitle: "Signature Edit", paraArray: ["Tired of tangled images? Let us work our magic! At Signature Snips, we trim the chaos from your photos with finesse. Our quirky team wields digital scissors, snipping away imperfections, adjusting lighting, and enhancing colours.", "From pesky blemishes to dull backgrounds, we'll transform your images into true masterpieces. Don't settle for ordinary edits—let us sprinkle some magic dust on your visuals!"] }} />
         <Service1 data={{
-          imageDir: false, mainImgPath: "/assets/before.jpg", button: true, subTitle: "New Born baby", title: "Tiny Tweak: Newborn Baby Editing", btnText: "Buy Now​ Call Today​", paraArray: ["Welcome your bundle of joy with picture-perfect perfection! Our newborn baby editing service at Refine pixel ensures every precious moment is captured flawlessly.", "From softening skin tones to enhancing those adorable little features, our expert editors delicately craft each image to perfection.", "Preserve those precious memories with a touch of magic, leaving you with heart-melting snapshots to cherish forever. Let us sprinkle some stardust on your newborn photos!"],
+          imageDir: false, mainImgPath: "/assets/newbornbaby/main-img.jpg", button: true, subTitle: "New Born baby", title: "Tiny Tweak: Newborn Baby Editing", btnText: "Buy Now​ Call Today​", paraArray: ["Welcome your bundle of joy with picture-perfect perfection! Our newborn baby editing service at Refine pixel ensures every precious moment is captured flawlessly.", "From softening skin tones to enhancing those adorable little features, our expert editors delicately craft each image to perfection.", "Preserve those precious memories with a touch of magic, leaving you with heart-melting snapshots to cherish forever. Let us sprinkle some stardust on your newborn photos!"],
           subImagesTitle: "New Born Baby", subImagesArray: [
             {
               aftimg: "./assets/newbornbaby/1_a.jpg",
