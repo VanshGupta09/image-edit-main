@@ -114,6 +114,8 @@ ul.level_1_nav li:hover {
 .service1 img {
     width: 100%;
     height: auto;
+    border-radius: 10px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
 
