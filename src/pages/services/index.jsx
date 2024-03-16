@@ -51,7 +51,7 @@ const Imagesediting = () => {
         <Aboutbred bread={"Images Editing"} />
         <div className="ped40"></div>
         <Service1 data={{
-          imageDir: false, mainImgPath: "/assets/ColourCorrection/main-img.jpg", button: true, subTitle: "Colour correction", title: "Color Magic: Brighten Your Images with Refine Pixel.", btnText: "Buy Now​ Call Today​", paraArray: ["We also offer hybrid editing services at competitive prices! Our designers and editors merge various editing styles to create visually unique images.", "We create images using our best elements and expertise.Our approach includes blending lively colors with modern compositions or interesting textures.", " We guarantee to deliver a classic charm and one-of-a-kind visual experience. So, enhance your images with our hybrid edits. "],
+          imageDir: false, mainImgPath: "/assets/before.jpg", button: true, subTitle: "Colour correction", title: "Color Magic: Brighten Your Images with Refine Pixel.", btnText: "Buy Now​ Call Today​", paraArray: ["We also offer hybrid editing services at competitive prices! Our designers and editors merge various editing styles to create visually unique images.", "We create images using our best elements and expertise.Our approach includes blending lively colors with modern compositions or interesting textures.", " We guarantee to deliver a classic charm and one-of-a-kind visual experience. So, enhance your images with our hybrid edits. "],
           subImagesTitle: "Color Correction", subImagesArray: [
             {
               aftimg: "./assets/ColourCorrection/3_a.jpg",
