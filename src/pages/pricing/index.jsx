@@ -61,78 +61,108 @@ const Index = () => {
 
         <div className="ped20"></div>
         {activeTab ? (
-          <div className="container flex justSpaceBetween gap10">
+          <div className="flex justSpaceBetween gap10">
             <Pricing_card
               title="Culling"
-              sub_title="0.06 USD"
+              sub_title="0.05$"
               s_title_span="/ per image"
-              p="Services Applied:"
-              list={[
-                "Light Balance",
-                "Light Balance",
-                "Light Balance",
-                "Light Balance",
-                "Light Balance",
-              ]}
               btn_value="Order"
             />
             <Pricing_card
-              title="Culling"
-              sub_title="0.06 USD"
+              title="Color Correction"
+              sub_title="0.30$ or 0.25$"
               s_title_span="/ per image"
               p="Services Applied:"
-              list={["Light Balance", "Light Balance", "Light Balance"]}
+              list={["Light Balance", "Tonal Range Enhancement", "Shadow & Highlights management", "Exposure", "Color tone and temperature", "saturation", "contrast enhancement", "vibrancy", "Following up The style of the client", "lightroom adjustments", "Image cropping"]}
               btn_value="Order"
             />
             <Pricing_card
-              title="Culling"
-              sub_title="0.06 USD"
+              title="Basic Level"
+              sub_title="3$"
               s_title_span="/ per image"
               p="Services Applied:"
-              list={["Light Balance", "Light Balance", "Light Balance"]}
+              list={["Light beauty retouching", "Blemishes scars acne removal", "Teeth whitening", "Skin smoothening", "Image cropping", "color & light correction", "Portraits retouch", "Close-ups", "Studio photos", "Background editing", "newborn retouching"]}
               btn_value="Order"
             />
             <Pricing_card
-              title="Culling"
-              sub_title="0.06 USD"
+              title="Pro Level"
+              sub_title="4$"
               s_title_span="/ per image"
               p="Services Applied:"
-              list={["Light Balance", "Light Balance", "Light Balance"]}
+              list={["Basic beauty retouching", "Pro beauty correction", "Blemishes scars acne removal", "Teeth whitening", "Skin smoothening", "background enhancement & extending", "Body retouching", "stray hair removal", "face rinkles removal", "Headshots retouching",
+                "Background editing", "Portraits retouching"]}
               btn_value="Order"
             />
             <Pricing_card
-              title="Culling"
-              sub_title="0.06 USD"
+              title="Noir Edits"
+              sub_title="4$"
               s_title_span="/ per image"
               p="Services Applied:"
-              list={["Light Balance", "Light Balance", "Light Balance"]}
+              list={["Black & white", "Light beauty retouching", "Blemishes scars acne removal", "Teeth whitening", "Skin smoothening", "Image cropping", "color & light correction", "Portraits retouch", "Close-ups", "Studio photos", "Background editing", "Liquify tool"]}
+              btn_value="Order"
+            />
+            <Pricing_card
+              title="Hybrid Edits"
+              sub_title="100$"
+              s_title_span="/ per image"
+              p="Services Applied:"
+              list={["Color Correction", "Light beauty retouching", "Blemishes scars acne removal", "Teeth whitening", "Minor distraction removal", "a sky swap", "straightening", "skew fixes", "dodging & burning", "Skin Smoothening", "Image cropping", "Premium toning and a texture overlay", "changing color of Clothes", "braces removal", "HDR effects"]}
               btn_value="Order"
             />
           </div>
         ) : (
-          <div className="container flex justSpaceCenter  gap10 offerArea yearly_package">
+          <div className="flex justSpaceCenter  gap10 offerArea yearly_package">
             <Pricing_card
               title="Culling"
-              sub_title="0.06 USD"
+              sub_title="0.04$ or 0.035$"
               s_title_span="/ per image"
-              p="Services Applied:"
-              list={["Light Balance", "Light Balance", "Light Balance"]}
               btn_value="Order"
             />
             <Pricing_card
-              title="Culling"
-              sub_title="0.06 USD"
+              title="Color Correction"
+              sub_title="0.15$"
               s_title_span="/ per image"
               p="Services Applied:"
-              list={[
-                "Light Balance",
-                "Light Balance",
-                "Light Balance",
-                "Light Balance",
-                "Light Balance",
-              ]}
+              list={["Light Balance", "Tonal Range Enhancement", "Shadow & Highlights management", "Exposure", "Color tone and temperature", "saturation", "contrast enhancement", "vibrancy", "Following up The style of the client", "lightroom adjustments", "Image cropping"]}
               btn_value="Order"
+              bottomPara={"*15 cents per image over 800"}
             />
+            <Pricing_card
+              title="Basic Level"
+              sub_title="2.5$"
+              s_title_span="/ per image"
+              p="Services Applied:"
+              list={["Light beauty retouching", "Blemishes scars acne removal", "Teeth whitening", "Skin smoothening", "Image cropping", "color & light correction", "Portraits retouch", "Close-ups", "Studio photos", "Background editing", "newborn retouching"]}
+              btn_value="Order"
+              bottomPara={"*15 cents per image over 800"}
+            />
+            <Pricing_card
+              title="Pro Level"
+              sub_title="3$"
+              s_title_span="/ per image"
+              p="Services Applied:"
+              list={["Basic beauty retouching", "Pro beauty correction", "Blemishes scars acne removal", "Teeth whitening", "Skin smoothening", "background enhancement & extending", "Body retouching", "stray hair removal", "face wrinkles removal", "Headshots retouching", "Background editing", "Portraits retouching"]}
+              btn_value="Order"
+              bottomPara={"*15 cents per image over 800"}
+            />
+            <Pricing_card
+              title="Noir Edits"
+              sub_title="3$"
+              s_title_span="/ per image"
+              p="Services Applied:"
+              list={["Black & white", "Light beauty retouching", "Blemishes scars acne removal", "Teeth whitening", "Skin smoothening", "Image cropping", "color & light correction", "Portraits retouch", "Close-ups", "Studio photos", "Background editing", "Liquify tool"]}
+              btn_value="Order"
+              bottomPara={"*15 cents per image over 800"}
+            />
+              <Pricing_card
+              title="Hybrid Edits"
+              sub_title="75$"
+              s_title_span="/ per image"
+              p="Services Applied:"
+              list={["Color Correction", "Light beauty retouching", "Blemishes scars acne removal", "Teeth whitening", "Minor distraction removal", "a sky swap", "straightening", "skew fixes", "dodging & burning", "Skin Smoothening", "Image cropping", "Premium toning and a texture overlay", "changing color of Clothes", "braces removal", "HDR effects"]}
+              btn_value="Order"
+              bottomPara={"*15 cents per image over 800"}
+              />
           </div>
         )}
 

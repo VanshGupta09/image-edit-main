@@ -923,9 +923,11 @@ input.btn {
 .Pricing_card {
     width: 20%;
     text-align: center;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, .06);
 }
-
+.Pricing_card>p {
+    font-size: 14px;
+    font-style: italic;
+}
 .Pricing_card .title h5 {
     color: #323e48;
     background-color: #7373731f;
@@ -952,8 +954,9 @@ input.btn {
     width: 100%;
 }
 
-.offerArea .Pricing_card {
-    width: 35%;
+.offerArea .Pricing_card div{
+    /* width: 35%; */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .06);
 }
 
 .Pricing_card .card_body>p {
