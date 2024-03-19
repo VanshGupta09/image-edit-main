@@ -7,17 +7,17 @@
 
 const imgData = [
     {
+        "path": "/assets/cca1.jpg"
+    }, {
+        "path": "/assets/cca2.jpg"
+    }, {
+        "path": "/assets/cca3.jpg"
+    }, {
+        "path": "/assets/cca4.jpg"
+    }, {
         "path": "/assets/gl1.jpg"
-    }, {
-        "path": "/assets/gl2.jpg"
-    }, {
-        "path": "/assets/gl3.jpg"
-    }, {
-        "path": "/assets/gl4.jpg"
-    }, {
-        "path": "/assets/gl5.jpg"
     },{
-        "path": "/assets/gl6.jpg"
+        "path": "/assets/gl2.jpg"
     }
 ]
 
