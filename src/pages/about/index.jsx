@@ -28,7 +28,7 @@ const index = () => {
             title: "Upgrade the Imagery Where Art Meets Precision.",
             description:
               "Trust Refine Pixel as your reliable partner in editing services. With our commitment to magnificence, we design images that enchant and inspire.",
-            btnName: "View our price",
+            btnName: "View Our Price",
             btnLink: "/pricing",
             image: "/assets/about.webp",
           }}

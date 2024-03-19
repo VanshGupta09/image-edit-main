@@ -45,13 +45,13 @@ const Footer = () => {
             <h4>Our Location</h4>
             <ul>
               <li>
-                <ImLocation /> Wangi No 22 Jakarta - Indonesia
+                <ImLocation /> 8 Adam Street, New York, NY 535022
               </li>
               <li>
-                <IoIosMail /> support@yourdomain.tld
+                <IoIosMail /> cs@quickdtg.com
               </li>
               <li>
-                <ImPhone /> (+6221) 2002 2012
+                <ImPhone /> 8341-414-714
               </li>
             </ul>
           </div>
