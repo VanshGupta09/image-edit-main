@@ -11,8 +11,8 @@ const Cta = () => {
           </h1>
 
           <div className="button flex justSpaceBetween">
-          <Link className="btn" href="/">Contact Us</Link>
-          <Link className="btn" href="/">Buy Now</Link>
+          <Link className="btn" href="/pricing">View Our Price</Link>
+          <Link className="btn" href="/contact">Contact Us</Link>
           </div>
         </div>
       </div>
