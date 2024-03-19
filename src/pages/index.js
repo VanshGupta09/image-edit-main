@@ -39,24 +39,24 @@ export default function Home() {
             description:
               "Refine Pixel is your creative alchemist! We offer dynamic editing services that transform your captured photos into visual masterpieces. We weave your work into wonders! Creating captivating narratives through your ideas.",
             btnName: "Read More",
-            btnLink: "/",
+            btnLink: "/about",
             image: "/assets/about.webp",
           }}
         />
 
         <ServiceHome data={{
-          imageDir: true, subTitle: "Image Editing", subContent: "Images Shine at Refine Pixels!", content: "Take your storytelling through images a notch up with our image editing services! We transform and add spark to every picture we come across. We help you exhibit tales with our creativity, precision and finesse.", button: "Read More", btnLink: "/", aftimg: "./assets/ColourCorrection/3_a.jpg",
+          imageDir: true, subTitle: "Image Editing", subContent: "Images Shine at Refine Pixels!", content: "Take your storytelling through images a notch up with our image editing services! We transform and add spark to every picture we come across. We help you exhibit tales with our creativity, precision and finesse.", button: "Read More", btnLink: "/services", aftimg: "./assets/ColourCorrection/3_a.jpg",
           befimg: "./assets/ColourCorrection/3_b.jpg",
         }} />
         <ServiceHome data={{
-          imageDir: false, subTitle: "Retouching", subContent: "Allow Us to Show You Our Retouching Magic!", content: "Your images will look better thanks to Refine Pixel's retouching and editing services. Redefining beauty, accuracy, subtlety, and inventiveness all work together to bring out each shot's ideal core.", button: "Read More", btnLink: "/", aftimg: "./assets/retouching/removeChangingBackground/2_a.jpg", befimg: "./assets/retouching/removeChangingBackground/2_b.jpg",
+          imageDir: false, subTitle: "Retouching", subContent: "Allow Us to Show You Our Retouching Magic!", content: "Your images will look better thanks to Refine Pixel's retouching and editing services. Redefining beauty, accuracy, subtlety, and inventiveness all work together to bring out each shot's ideal core.", button: "Read More", btnLink: "/services", aftimg: "./assets/retouching/removeChangingBackground/2_a.jpg", befimg: "./assets/retouching/removeChangingBackground/2_b.jpg",
         }} />
         <VideoSec />
         <ServiceHome data={{
-          imageDir: true, subTitle: "Retouching", subContent: "Allow Us to Show You Our Retouching Magic!", content: "Your images will look better thanks to Refine Pixel's retouching and editing services. Redefining beauty, accuracy, subtlety, and inventiveness all work together to bring out each shot's ideal core.", button: "Read More", btnLink: "/", aftimg: "./assets/retouching/removeChangingBackground/3_a.jpg", befimg: "./assets/retouching/removeChangingBackground/3_b.jpg",
+          imageDir: true, subTitle: "Retouching", subContent: "Allow Us to Show You Our Retouching Magic!", content: "Your images will look better thanks to Refine Pixel's retouching and editing services. Redefining beauty, accuracy, subtlety, and inventiveness all work together to bring out each shot's ideal core.", button: "Read More", btnLink: "/services", aftimg: "./assets/retouching/removeChangingBackground/3_a.jpg", befimg: "./assets/retouching/removeChangingBackground/3_b.jpg",
         }} />
         <ServiceHome data={{
-          imageDir: false, subTitle: "Product Photo Editing", subContent: "Picture-Perfect Transformation by Refine Pixel!", content: "With Refine Pixel's Product Photo Editing, take center stage. We meticulously polish each element, turning your images into an impressive exhibition of quality. Let us enhance your photos' allure.", button: "Read More", btnLink: "/", aftimg: "./assets/cca1.jpg", befimg: "./assets/ccb1.jpg",
+          imageDir: false, subTitle: "Product Photo Editing", subContent: "Picture-Perfect Transformation by Refine Pixel!", content: "With Refine Pixel's Product Photo Editing, take center stage. We meticulously polish each element, turning your images into an impressive exhibition of quality. Let us enhance your photos' allure.", button: "Read More", btnLink: "/services", aftimg: "./assets/cca1.jpg", befimg: "./assets/ccb1.jpg",
         }} />
         <ChooseUs data={{ subTitle: "Why Choose Us?", title: "What Makes Us Different?", para: "Discover what sets us apart in the industry - from modern technology to a global approach. At Refine Pixel we redefine editing.", cards: [{ title: "Modern Technology", para: "Our state-of-the-art technology at Refine Pixel enhances and streamlines the editing process. It positions us at the industry's forefront." }, { title: "Global Perspective", para: "We have a client base all over the world. It encourages us to bring diverse and multicultural perspectives to our editing services." }, { title: "Competitive Pricing", para: "We offer our services at the best prices! Without compromising on the quality. We ensure our services are accessible to all, be it an individual or a business." }, { title: "24/7 Customer Support", para: "We offer 24/7 customer support and assistance. We address every client query, no matter when or where you're calling from." }] }} />
         <Textmonial />

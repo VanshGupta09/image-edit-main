@@ -936,11 +936,13 @@ input.btn {
 
 .Pricing_card .card_body {
     padding: 20px 15px;
+    border: 1px solid #f2f3f3;
 }
 
 .Pricing_card .card_body h4 {
-    color: #2196F3;
-    font-family: 'Candara', serif;
+    color: #2196f3;
+    font-family: Candara, serif;
+    font-size: 18px;
 }
 
 .Pricing_card .card_body h4 span {
@@ -966,8 +968,8 @@ input.btn {
 .Pricing_card li p {
     background: #cccccc36;
     padding-block: 0.5rem;
-    /* margin-block: 0.5rem; */
-    line-height: 1;
+    line-height: 26px;
+    font-size: 14px;
 }
 
 .Pricing_card ul li:nth-child(2n) p {
