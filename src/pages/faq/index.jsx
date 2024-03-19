@@ -11,29 +11,29 @@ import Faq from "@/components/Faq";
 const faqPage = () => {
   const data = [
     {
-      title: "WHY CHOOSE REFINE PIXEL?",
+      title: "Why Choose Refine Pixel?",
       Description: "Our team is dedicated to the success of each photographer we work with. We offer a custom process with every order. This ensures that each image or design that our client receives is true to their studio and their style.",
     },
     {
-      title: "WHAT IS YOUR MINIMUM ORDER?",
+      title: "What Is Your Minimum Order?",
       Description: "For Standard Evolve accounts there is a $30 USD minimum.For Premier Members, there is no order minimum.",
     },
     {
-      title: "WHAT IS STANDARD TURN AROUND TIME?",
+      title: "What Is Standard Turn Around Time?",
       Description: "Typically, you can expect your order returned in 5 business days or less. If you are in need of a quicker turn around, you can add a rush to your order.Select the Same Day rush for a 1 business day turnaround, Next Day rush for a 2 business day turnaround.",
     },
   ];
   const data_1 = [
     {
-      title: "WHAT IF I’M NOT HAPPY WITH MY COMPLETED ORDER?",
+      title: "What If I’m Not Happy With My Completed Order?",
       Description: "We completely guarantee our work. So, if you are not happy with the job, let us know it needs to be revisited. Please do not edit it yourself, that’s what we are here for!Click the survey link at the bottom of your Order Complete email: GIVE US FEEDBACK ON THIS JOB.",
     },
     {
-      title: "CAN I WORK WITH ONE EDITOR?",
+      title: "Can I Work With One Editor?",
       Description: "We assign each client 2-3 editors. If one editor is out, you’ll still be well taken care of by someone who is familiar with your style and workflow.",
     },
     {
-      title: "WHAT VERSION OF LIGHTROOM DO YOU ACCEPT?",
+      title: "What Version Of Lightroom Do You Accept?",
       Description: "We are currently accepting the latest version of Lightroom Classic.If working in an older version including Lightroom 5 or 6/CC 2015 we recommend upgrading to Lightroom Classic via the Adobe Creative Cloud.",
     },
   ];

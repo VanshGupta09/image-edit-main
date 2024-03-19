@@ -10,17 +10,17 @@ const Service1 = ({ data }) => {
           <div className="flex gap">
             <div className="col50" style={{ order: data.imageDir ? 1 : 2 }}>
               <p>
-                <span>{data.subTitle}</span>
+                <span>{data?.subTitle}</span>
               </p>
-              <h3>{data.title}</h3>
+              <h3>{data?.title}</h3>
               {
-                data.paraArray?.map((elm, ind) => {
+                data?.paraArray?.map((elm, ind) => {
                   return <p key={ind}>{elm}</p>
                 })
               }
               {data.button ? (
-                <Link className="btn" href="/">
-                  {data.btnText}
+                <Link className="btn" href={data?.btnLink ? data?.btnLink:"/"}>
+                  {data?.btnText}
                 </Link>
               ) : (
                 ""
@@ -32,7 +32,7 @@ const Service1 = ({ data }) => {
                   className="col50 imageTab"
                   style={{ order: data.imageDir ? 2 : 1 }}
                 >
-                  <img src={data.imgPath} alt="Section Image" />
+                  <img src={data?.imgPath} alt="Section Image" />
                 </div>
                 : <div
                   className="col50 imageTab"
