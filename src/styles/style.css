@@ -390,6 +390,7 @@ li.react-multi-carousel-dot.react-multi-carousel-dot--active button {
 .img-section .img {
     width: calc(100% / 6);
     height: auto;
+    object-fit: cover;
 }
 
 .footer {
