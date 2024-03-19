@@ -58,7 +58,7 @@ const WebDesignAndDevelopement = () => {
         <VideoSec />
         <Service1 data={{imgPath: "./assets/refinePixelImages/w4.jpg", imageDir: true, button: true, subTitle: "Web design and development", btnText: "Buy Now​ Call Today​", title: "Revamp Your Online Presence: Bespoke E-Commerce Solutions", paraArray: ["Embark on a journey to redefine your online presence with our bespoke e-commerce solutions. We specialize in crafting tailored strategies that breathe new life into your brand, enhancing its visibility and driving sales"] }} />
         <Service1 data={{imgPath: "./assets/refinePixelImages/w5.jpg", imageDir: false, button: true, subTitle: "Web design and development", btnText: "Buy Now​ Call Today​", title: "Round-the-Clock Assistance & Care: We've Got You Covered!", paraArray: ["Experience unparalleled support and care with our round-the-clock assistance services. We're dedicated to ensuring your needs are met at any time of day or night, offering prompt and reliable assistance whenever you require it"] }} />
-        {/* <div className="ped40"></div> */}
+        <div className="ped40"></div>
 
         {/* <section className="Thirdservice samplework">
           <div className="container">

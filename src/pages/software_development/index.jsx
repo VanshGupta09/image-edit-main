@@ -48,7 +48,7 @@ const WebDesignAndDevelopement = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layouts>
-        <Aboutbred bread={"Web Design and Developement"} />
+        <Aboutbred bread={"Software Development"} />
         <div className="ped40"></div>
         <Service1 data={{ imgPath: "./assets/refinePixelImages/s1.jpg",imageDir: true, button: true, subTitle: "Software Development", btnText: "Buy Now​ Call Today​", title: "Seamless Software Development: Error-Free Solutions, Every Time.", paraArray: ["Embark on a journey of seamless software development with our expert team. We specialize in crafting error-free solutions that meet your unique needs and exceed your expectations. From initial concept to final deployment, we prioritize quality at every step of the process to ensure a smooth and reliable experience for our clients."] }} />
         <Service1 data={{ imgPath: "./assets/refinePixelImages/s2.jpg",imageDir: false, button: true, subTitle: "Software Development", btnText: "Buy Now​ Call Today​", title: "Protect Your Assets: Implement IT Security Solutions for Risk Management.", paraArray: ["Shield your assets and fortify your digital infrastructure with our cutting-edge IT security solutions. We understand the importance of safeguarding your business from cyber threats, which is why we offer tailored risk management strategies to mitigate potential vulnerabilities. Our expert team employs a multi-layered approach."] }} />
@@ -58,6 +58,7 @@ const WebDesignAndDevelopement = () => {
         <VideoSec />
         <Service1 data={{ imgPath: "./assets/refinePixelImages/s4.jpg",imageDir: true, button: true, subTitle: "Software Development", btnText: "Buy Now​ Call Today​", title: "Prompt App Maintenance & Support Services.", paraArray: ["Experience uninterrupted app performance with our prompt maintenance and support services. We understand the importance of keeping your app running smoothly, which is why we offer timely updates, bug fixes, and technical assistance to address any issues that may arise."] }} />
         <Service1 data={{ imgPath: "./assets/refinePixelImages/s5.jpg",imageDir: false, button: true, subTitle: "Software Development", btnText: "Buy Now​ Call Today​", title: "Customized App Development: Crafting Solutions to Fit Your Vision", paraArray: ["Immerse yourself in the realm of custom app development, where we meticulously craft solutions that align perfectly with your vision and objectives. Our expert team takes the time to understand your unique requirements, ensuring that every aspect of the app reflects your brand identity and meets your specific needs."] }} />
+        <div className="ped40"></div>
 
         {/* <section className="Thirdservice samplework">
           <div className="container">

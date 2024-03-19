@@ -60,7 +60,7 @@ const Video_edit = () => {
         < VideoSec />
         <Service1 data={{ imgPath: "./assets/refinePixelImages/v4.jpg", imageDir: true, button: true, subTitle: "Video Editing", btnText: "View our portfolio​", title: "Dynamic Logo Animation Service", paraArray: ["Introducing our Dynamic Logo Animation Service—a cutting-edge solution to elevate your brand's visual identity. At Weeb Innovation, we specialize in crafting captivating animated logos that breathe new life into your brand image.Our team of skilled designers and animators meticulously blend creativity and innovation to deliver logo animations that leave a lasting impression."] }} />
         <Service1 data={{ imgPath: "./assets/refinePixelImages/v5.jpg", imageDir: false, button: true, subTitle: "Video Editing", btnText: "View our portfolio​", title: "Top-tier 2D Infographic Video Production: Let Us Bring Your Ideas to Life!", paraArray: ["Experience top-tier 2D Infographic Video Production with Weeb Innovation: Where Your Ideas Come to Life!Our expert team transforms your concepts into engaging and informative 2D infographic videos that captivate your audience."] }} />
-        {/* <div className="ped40"></div> */}
+        <div className="ped40"></div>
 
         {/* < section className="Thirdservice samplework" >
           <div className="container">
