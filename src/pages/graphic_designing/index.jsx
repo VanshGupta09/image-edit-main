@@ -59,7 +59,7 @@ const GraphicDesigning = () => {
         <Service1 data={{ imgPath: "./assets/refinePixelImages/g4.jpg",imageDir: true, button: true, subTitle: "Graphic Designing", btnText: "View our portfolio​", title: "Professional Graphic Art & Illustration Services Tailored for You", paraArray: ["Immerse yourself in the world of professional graphic art and illustration services, meticulously tailored to bring your vision to life. From captivating digital illustrations to stunning graphic designs, our expert team combines artistic flair with technical expertise to create bespoke visuals that resonate with your audience."] }} />
         {/* <div className="ped40"></div> */}
 
-        <section className="Thirdservice samplework">
+        {/* <section className="Thirdservice samplework">
           <div className="container">
             <div className="flex gap">
               <div className="col50">
@@ -78,7 +78,7 @@ const GraphicDesigning = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         {/* <section className="samplework1">
           <div className="container">
             <ReactCompareImage
@@ -88,7 +88,7 @@ const GraphicDesigning = () => {
           </div>
         </section> */}
 
-        <Faq data={data} data_1={data_1} />
+        {/* <Faq data={data} data_1={data_1} /> */}
 
         <Cta />
 

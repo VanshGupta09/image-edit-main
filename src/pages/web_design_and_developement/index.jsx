@@ -60,7 +60,7 @@ const WebDesignAndDevelopement = () => {
         <Service1 data={{imgPath: "./assets/refinePixelImages/w5.jpg", imageDir: false, button: true, subTitle: "Web design and development", btnText: "Buy Now​ Call Today​", title: "Round-the-Clock Assistance & Care: We've Got You Covered!", paraArray: ["Experience unparalleled support and care with our round-the-clock assistance services. We're dedicated to ensuring your needs are met at any time of day or night, offering prompt and reliable assistance whenever you require it"] }} />
         {/* <div className="ped40"></div> */}
 
-        <section className="Thirdservice samplework">
+        {/* <section className="Thirdservice samplework">
           <div className="container">
             <div className="flex gap">
               <div className="col50">
@@ -79,17 +79,8 @@ const WebDesignAndDevelopement = () => {
               </div>
             </div>
           </div>
-        </section>
-        {/* <section className="samplework1">
-          <div className="container">
-            <ReactCompareImage
-              leftImage={"/assets/after.webp"}
-              rightImage={"/assets/before.webp"}
-            />
-          </div>
         </section> */}
-
-        <Faq data={data} data_1={data_1} />
+        {/* <Faq data={data} data_1={data_1} /> */}
 
         <Cta />
 

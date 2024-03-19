@@ -62,7 +62,7 @@ const Video_edit = () => {
         <Service1 data={{ imgPath: "./assets/refinePixelImages/v5.jpg", imageDir: false, button: true, subTitle: "Video Editing", btnText: "View our portfolio​", title: "Top-tier 2D Infographic Video Production: Let Us Bring Your Ideas to Life!", paraArray: ["Experience top-tier 2D Infographic Video Production with Weeb Innovation: Where Your Ideas Come to Life!Our expert team transforms your concepts into engaging and informative 2D infographic videos that captivate your audience."] }} />
         {/* <div className="ped40"></div> */}
 
-        < section className="Thirdservice samplework" >
+        {/* < section className="Thirdservice samplework" >
           <div className="container">
             <div className="flex gap">
               <div className="col50">
@@ -81,17 +81,8 @@ const Video_edit = () => {
               </div>
             </div>
           </div>
-        </section>
-        {/* <section className="samplework1">
-          <div className="container">
-            <ReactCompareImage
-              leftImage={"/assets/after.webp"}
-              rightImage={"/assets/before.webp"}
-            />
-          </div>
         </section> */}
-
-        <Faq data={data} data_1={data_1} />
+        {/* <Faq data={data} data_1={data_1} /> */}
 
         <Cta />
 

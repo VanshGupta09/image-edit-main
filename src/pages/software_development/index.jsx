@@ -59,7 +59,7 @@ const WebDesignAndDevelopement = () => {
         <Service1 data={{ imgPath: "./assets/refinePixelImages/s4.jpg",imageDir: true, button: true, subTitle: "Software Development", btnText: "Buy Now​ Call Today​", title: "Prompt App Maintenance & Support Services.", paraArray: ["Experience uninterrupted app performance with our prompt maintenance and support services. We understand the importance of keeping your app running smoothly, which is why we offer timely updates, bug fixes, and technical assistance to address any issues that may arise."] }} />
         <Service1 data={{ imgPath: "./assets/refinePixelImages/s5.jpg",imageDir: false, button: true, subTitle: "Software Development", btnText: "Buy Now​ Call Today​", title: "Customized App Development: Crafting Solutions to Fit Your Vision", paraArray: ["Immerse yourself in the realm of custom app development, where we meticulously craft solutions that align perfectly with your vision and objectives. Our expert team takes the time to understand your unique requirements, ensuring that every aspect of the app reflects your brand identity and meets your specific needs."] }} />
 
-        <section className="Thirdservice samplework">
+        {/* <section className="Thirdservice samplework">
           <div className="container">
             <div className="flex gap">
               <div className="col50">
@@ -78,7 +78,7 @@ const WebDesignAndDevelopement = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         {/* <section className="samplework1">
           <div className="container">
             <ReactCompareImage
@@ -88,7 +88,7 @@ const WebDesignAndDevelopement = () => {
           </div>
         </section> */}
 
-        <Faq data={data} data_1={data_1} />
+        {/* <Faq data={data} data_1={data_1} /> */}
 
         <Cta />
 
