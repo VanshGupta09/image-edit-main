@@ -11,30 +11,30 @@ import Faq from "@/components/Faq";
 const faqPage = () => {
   const data = [
     {
-      title: "What Is Included With Color Correction Services?",
-      Description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      title: "WHY CHOOSE REFINE PIXEL?",
+      Description: "Our team is dedicated to the success of each photographer we work with. We offer a custom process with every order. This ensures that each image or design that our client receives is true to their studio and their style.",
     },
     {
-      title: "What Is Included With Color Correction Services?",
-      Description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      title: "WHAT IS YOUR MINIMUM ORDER?",
+      Description: "For Standard Evolve accounts there is a $30 USD minimum.For Premier Members, there is no order minimum.",
     },
     {
-      title: "What Is Included With Color Correction Services?",
-      Description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      title: "WHAT IS STANDARD TURN AROUND TIME?",
+      Description: "Typically, you can expect your order returned in 5 business days or less. If you are in need of a quicker turn around, you can add a rush to your order.Select the Same Day rush for a 1 business day turnaround, Next Day rush for a 2 business day turnaround.",
     },
   ];
   const data_1 = [
     {
-      title: "What Is Included With Color Correction Services?",
-      Description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      title: "WHAT IF I’M NOT HAPPY WITH MY COMPLETED ORDER?",
+      Description: "We completely guarantee our work. So, if you are not happy with the job, let us know it needs to be revisited. Please do not edit it yourself, that’s what we are here for!Click the survey link at the bottom of your Order Complete email: GIVE US FEEDBACK ON THIS JOB.",
     },
     {
-      title: "What Is Included With Color Correction Services?",
-      Description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      title: "CAN I WORK WITH ONE EDITOR?",
+      Description: "We assign each client 2-3 editors. If one editor is out, you’ll still be well taken care of by someone who is familiar with your style and workflow.",
     },
     {
-      title: "What Is Included With Color Correction Services?",
-      Description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      title: "WHAT VERSION OF LIGHTROOM DO YOU ACCEPT?",
+      Description: "We are currently accepting the latest version of Lightroom Classic.If working in an older version including Lightroom 5 or 6/CC 2015 we recommend upgrading to Lightroom Classic via the Adobe Creative Cloud.",
     },
   ];
 
@@ -49,7 +49,7 @@ const faqPage = () => {
       <Layouts>
         <Aboutbred bread={"Frequently Asked Questions"} />
         <div className="ped40"></div>
-        
+
 
         <Faq data={data} data_1={data_1} />
       </Layouts>
