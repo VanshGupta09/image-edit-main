@@ -969,6 +969,7 @@ input.btn {
 .pricingSubHeading {
     margin-bottom: 20px;
     text-align: center;
+    font-family: 'Candara';
 }
 .pricingSubHeading span{
     font-size: 18px;

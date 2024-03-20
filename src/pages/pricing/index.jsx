@@ -61,7 +61,7 @@ const Index = () => {
 
         <div className="ped20"></div>
         {activeTab ? (<>
-          <h4 className="pricingSubHeading">Culling 0.05$<span>/ per image</span></h4>
+          <h4 className="pricingSubHeading">Culling 0.05$ <span>/ per image</span></h4>
           <div className="flex justSpaceBetween gap10">
             {/* <Pricing_card
               title="Culling"
@@ -114,7 +114,7 @@ const Index = () => {
         </>
         ) : (
           <>
-            <h4 className="pricingSubHeading">Culling 0.035$<span>/ per image</span></h4>
+            <h4 className="pricingSubHeading">Culling 0.035$ <span>/ per image</span></h4>
             <div className="flex justSpaceCenter  gap10 offerArea yearly_package">
               {/* <Pricing_card
               title="Culling"
