@@ -27,7 +27,12 @@ const ServiceHome = ({ data }) => {
               className="col50 imageTab"
               style={{ order: data.imageDir ? 2 : 1 }}
             >
-              <ReactCompareImage leftImage={data.aftimg ? data.aftimg : "/assets/after.webp"} rightImage={data.befimg ? data.befimg : "/assets/before.webp"} />
+              {data?.sideImg ?
+                <div style={{ order: data.imageDir ? 2 : 1 }}>
+                  <img src={data?.sideImg} alt="Section Image" />
+                </div>
+                : <ReactCompareImage leftImage={data.aftimg ? data.aftimg : "/assets/after.webp"} rightImage={data.befimg ? data.befimg : "/assets/before.webp"} />
+              }
             </div>
           </div>
         </div>
