@@ -33,7 +33,7 @@ const Index = () => {
           <div className="content textCenter">
             <h4>Pricing</h4>
             <p>
-              Weedit.Photos keeps its photo editing pricing policy absolutely
+              Refine Pixel keeps its photo editing pricing policy absolutely
               clear. You can easily calculate the cost of your order using the
               detailed lists below
             </p>
