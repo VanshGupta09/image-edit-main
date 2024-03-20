@@ -165,7 +165,7 @@ ul.level_1_nav li:hover {
     margin-top: 30px;
 }
 
- .popup-title {
+.popup-title {
     position: absolute;
     color: white;
     top: 10px;
@@ -1022,7 +1022,8 @@ input.btn {
 
 .bottomPara {
     text-align: center;
-    font-size: 15px;
+    margin-top: 20px;
+    font-style: italic;
 }
 
 /* Pricing end */
