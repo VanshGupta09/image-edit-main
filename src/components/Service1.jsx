@@ -39,7 +39,7 @@ const Service1 = ({ data }) => {
                   style={{ order: data.imageDir ? 2 : 1 }}
                 >
                   <img src={data?.mainImgPath} width={500} height={500} alt="Image Edite" />
-                  <SliderPopup imgData={{ subImagesArray: data?.subImagesArray,subImagesTitle:data?.subImagesTitle}} screen={{ sc_1: 3, sc_2: 3, sc_3: 3, sc_4: 3 }} />
+                  <SliderPopup imgData={{ subImagesArray: data?.subImagesArray,subImagesTitle:data?.subImagesTitle,sliderTitleArray:data?.sliderTitleArray}} screen={{ sc_1: 3, sc_2: 3, sc_3: 3, sc_4: 3 }} />
                 </div>
             }
           </div>

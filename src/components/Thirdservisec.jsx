@@ -31,7 +31,7 @@ const Thirdservisec = ({ data }) => {
           expectations with the service provider to achieve the desired results.
         </p> */}
 
-        <SliderPopup screen={{ sc_1: 5, sc_2: 5, sc_3: 5, sc_4: 5 }}  imgData={{ subImagesArray: data?.subImagesArray,subImagesTitle:data?.subImagesTitle}} head_white={true} />
+        <SliderPopup screen={{ sc_1: 5, sc_2: 5, sc_3: 5, sc_4: 5 }}  imgData={{sliderTitleArray:data?.sliderTitleArray,subImagesArray: data?.subImagesArray,subImagesTitle:data?.subImagesTitle}} head_white={true} />
       </div>
     </section>
   );

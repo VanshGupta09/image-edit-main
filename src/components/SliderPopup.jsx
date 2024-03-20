@@ -29,9 +29,9 @@ const SliderPopup = ({ screen, head_white, dataImg_, imgData ,}) => {
     },
   };
   imgData?.subImagesArray?.map((elm) => {
-    console.log(elm.aftimg);
+    // console.log(elm.aftimg);
   })
-  console.log(imgData?.subImagesArray?.length, imgData, imgData?.subImagesArray);
+  // console.log(imgData?.subImagesArray?.length, imgData, imgData?.subImagesArray);
 
   const next = () => {
     if (imgData?.subImagesArray?.length - 1 > data) {
@@ -90,7 +90,7 @@ const SliderPopup = ({ screen, head_white, dataImg_, imgData ,}) => {
                 <div
                   key={i}
                   onClick={() => {
-                    setData(i);
+                    setData(0);
                     setActivePop(!activePop);
                   }}
                   className="slideCard"
@@ -113,7 +113,7 @@ const SliderPopup = ({ screen, head_white, dataImg_, imgData ,}) => {
       {
         activePop ? <div className={`popup ${activePop ? "active" : ""}`}>
           <div className="main">
-            <p className="popup-title">{imgData?.subImagesTitle }</p>
+            <p className="popup-title">{imgData?.sliderTitleArray[data] }</p>
             <div className="left" onClick={prev}>
               <AiOutlineLeft />
             </div>
