@@ -40,7 +40,7 @@ export default function Home() {
               "Refine Pixel is your creative alchemist! We offer dynamic editing services that transform your captured photos into visual masterpieces. We weave your work into wonders! Creating captivating narratives through your ideas.",
             btnName: "Read More",
             btnLink: "/about",
-            image: "/assets/about.webp",
+            image: "/assets/about.png",
           }}
         />
 

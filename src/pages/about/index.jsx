@@ -30,7 +30,7 @@ const index = () => {
               "Trust Refine Pixel as your reliable partner in editing services. With our commitment to magnificence, we design images that enchant and inspire.",
             btnName: "View Our Price",
             btnLink: "/pricing",
-            image: "/assets/about.webp",
+            image: "/assets/aboutImg.png",
           }}
         />
         <div className="ped40"></div>
