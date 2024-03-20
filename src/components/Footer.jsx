@@ -45,13 +45,13 @@ const Footer = () => {
             <h4>Our Location</h4>
             <ul>
               <li>
-                <ImLocation /> 8 Adam Street, New York, NY 535022
+                <ImLocation /> 14275 Commerce Drive, Garden Grove , CA 92843
               </li>
               <li>
-                <IoIosMail /> cs@quickdtg.com
+                <IoIosMail /> cs@refinepixel.com
               </li>
               <li>
-                <ImPhone /> 8341-414-714
+                <ImPhone /> +91 714 646 7977
               </li>
             </ul>
           </div>

@@ -111,6 +111,7 @@ const Index = () => {
               btn_value="Order Now"
             />
           </div>
+          <p className="bottomPara">We have monthly subscription plans as detailed but if these do not meet your requirements then we are happy to negotiate a subscription service that is more suitable to your business needs.</p>
         </>
         ) : (
           <>
@@ -127,7 +128,7 @@ const Index = () => {
                 sub_title="249$"
                 s_title_span="/ per month"
                 p="Feature"
-                list={["Unlimited Color Correction Events", "Light Balance", "Tonal Range Enhancement", "Shadow & Highlights management", "Exposure", "Color tone and temperature", "saturation", "contrast enhancement", "vibrancy", "Following up The style of the client", "lightroom adjustments", "Image cropping"]}
+                list={["Unlimited Color Correction Events", "Up to 800 color corrected images per event*", "Light Balance", "Tonal Range Enhancement", "Shadow & Highlights management", "Exposure", "Color tone and temperature", "saturation", "contrast enhancement", "vibrancy", "Following up The style of the client", "lightroom adjustments", "Image cropping"]}
                 btn_value="Order Now"
                 bottomPara={"*15 cents per image over 800"}
               />
@@ -164,6 +165,7 @@ const Index = () => {
                 btn_value="Order Now"
               />
             </div>
+            <p className="bottomPara">We have monthly subscription plans as detailed but if these do not meet your requirements then we are happy to negotiate a subscription service that is more suitable to your business needs.</p>
           </>
         )}
 

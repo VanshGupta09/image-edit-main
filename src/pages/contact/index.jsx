@@ -44,7 +44,7 @@ const index = () => {
                   {/* <i className="fa fa-phone" aria-hidden="true"></i> */}
               <div>
                 <p>Have any question?</p>
-                <p>8341-414-714</p>
+                <p>+91 714 646 7977</p>
               </div>
             </div>
             <div className="flex  second-icon">
@@ -52,7 +52,7 @@ const index = () => {
               {/* <i className="fa fa-envelope" aria-hidden="true"></i> */}
               <div>
                 <p>Write email</p>
-                <p>cs@quickdtg.com</p>
+                <p>cs@refinepixel.com</p>
               </div>
             </div>
             <div className="flex third-icon">
@@ -60,7 +60,7 @@ const index = () => {
               {/* <i className="fa fa-phone" aria-hidden="true"></i> */}
               <div>
                 <p>Visit anytime</p>
-                <p>8 Adam Street, New York, NY 535022</p>
+                <p>14275 Commerce Drive, Garden Grove , CA 92843</p>
               </div>
             </div>
           </div>

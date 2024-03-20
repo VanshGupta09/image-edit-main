@@ -5,7 +5,7 @@ import { AiOutlineCloseCircle } from "react-icons/ai";
 import { AiOutlineRight, AiOutlineLeft } from 'react-icons/ai';
 import AfterBefore from "./AfterBefore";
 
-const SliderPopup = ({ screen, head_white, dataImg_, imgData }) => {
+const SliderPopup = ({ screen, head_white, dataImg_, imgData ,}) => {
   const [data, setData] = useState(0);
   const [activePop, setActivePop] = useState(false);
 

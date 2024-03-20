@@ -971,7 +971,8 @@ input.btn {
     text-align: center;
     font-family: 'Candara';
 }
-.pricingSubHeading span{
+
+.pricingSubHeading span {
     font-size: 18px;
     color: #000;
 }
@@ -1017,6 +1018,11 @@ input.btn {
     width: 100%;
     max-width: 600px;
     margin: 0 auto;
+}
+
+.bottomPara {
+    text-align: center;
+    font-size: 15px;
 }
 
 /* Pricing end */

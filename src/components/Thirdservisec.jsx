@@ -13,7 +13,7 @@ const Thirdservisec = ({ data }) => {
         <h4>{data?.title}</h4>
         {
           data?.paraArray?.map((elm, ind) => {
-            return <p key={ind}>{elm}<br/><br/></p>
+            return <p key={ind}>{elm}<br /><br /></p>
           })
         }
         {/* <p>
@@ -31,7 +31,7 @@ const Thirdservisec = ({ data }) => {
           expectations with the service provider to achieve the desired results.
         </p> */}
 
-        {/* <SliderPopup screen={{ sc_1: 7, sc_2: 7, sc_3: 7, sc_4: 7 }} head_white={true} /> */}
+        <SliderPopup screen={{ sc_1: 5, sc_2: 5, sc_3: 5, sc_4: 5 }}  imgData={{ subImagesArray: data?.subImagesArray,subImagesTitle:data?.subImagesTitle}} head_white={true} />
       </div>
     </section>
   );

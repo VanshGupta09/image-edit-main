@@ -9,15 +9,15 @@ const imgData = [
     {
         "path": "/assets/cca1.jpg"
     }, {
-        "path": "/assets/cca2.jpg"
+        "path": "./assets/retouching/removeChangingBackground/2_a.jpg"
     }, {
-        "path": "/assets/cca3.jpg"
+        "path": "/assets/newbornbaby/1_a.jpg"
     }, {
-        "path": "/assets/cca4.jpg"
+        "path": "/assets/RealEstate/1_a.jpg"
     }, {
-        "path": "/assets/gl1.jpg"
+        "path": "/assets/ColourCorrection/3_a.jpg"
     },{
-        "path": "/assets/gl2.jpg"
+        "path": "/assets/ColourCorrection/5_a.jpg"
     }
 ]
 
