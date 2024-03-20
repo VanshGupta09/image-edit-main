@@ -8,12 +8,12 @@ const Workimgedit = () => {
         <div className="container">
             <h3>Images Editing Work</h3>
             <div className="flex gap30">
-                <div className="col50"><ReactCompareImage leftImage={"/assets/after.webp"} rightImage={"/assets/before.webp"} />
+                <div className="col50"><ReactCompareImage leftImage={"./assets/ColourCorrection/3_a.jpg"} rightImage={"./assets/ColourCorrection/3_b.jpg"} />
                 <div className="ped30"></div>
-                <ReactCompareImage leftImage={"/assets/after.webp"} rightImage={"/assets/before.webp"} /></div>
-                <div className="col50"><ReactCompareImage leftImage={"/assets/after.webp"} rightImage={"/assets/before.webp"} />
+                <ReactCompareImage leftImage={"./assets/newbornbaby/1_a.jpg"} rightImage={"./assets/newbornbaby/1_b.jpg"} /></div>
+                <div className="col50"><ReactCompareImage leftImage={"./assets/retouching/removeChangingBackground/2_a.jpg"} rightImage={"./assets/retouching/removeChangingBackground/2_b.jpg"} />
                 <div className="ped30"></div>
-                <ReactCompareImage leftImage={"/assets/after.webp"} rightImage={"/assets/before.webp"} /></div>
+                <ReactCompareImage leftImage={"./assets/RealEstate/1_a.jpg"} rightImage={"./assets/RealEstate/1_b.jpg"} /></div>
             </div>
         </div>
       </div>

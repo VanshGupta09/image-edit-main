@@ -966,6 +966,15 @@ input.btn {
     width: 100%;
 }
 
+.pricingSubHeading {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.pricingSubHeading span{
+    font-size: 18px;
+    color: #000;
+}
+
 /* .offerArea .Pricing_card div{ */
 /* width: 35%; */
 /* box-shadow: 0 5px 15px rgba(0, 0, 0, .06); */
