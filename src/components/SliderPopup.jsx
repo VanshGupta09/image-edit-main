@@ -1,11 +1,11 @@
-import React, {  useState } from "react";
+import React, { useState } from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 import { AiOutlineRight, AiOutlineLeft } from 'react-icons/ai';
 import AfterBefore from "./AfterBefore";
 
-const SliderPopup = ({ screen, head_white, dataImg_, imgData ,}) => {
+const SliderPopup = ({ screen, head_white, dataImg_, imgData, }) => {
   const [data, setData] = useState(0);
   const [activePop, setActivePop] = useState(false);
 
@@ -76,7 +76,8 @@ const SliderPopup = ({ screen, head_white, dataImg_, imgData ,}) => {
   return (
     <>
       <div className="sliderPopup">
-        <h5 className={`${head_white ? "white" : ""}`}>OUR SAMPLE</h5>
+        {imgData?.subImagesArray ? <h5 className={`${head_white ? "white" : ""}`}>OUR SAMPLE</h5> : <></>}
+
         <Carousel
           infinite={true}
           autoPlay={true}
@@ -113,7 +114,7 @@ const SliderPopup = ({ screen, head_white, dataImg_, imgData ,}) => {
       {
         activePop ? <div className={`popup ${activePop ? "active" : ""}`}>
           <div className="main">
-            <p className="popup-title">{imgData?.sliderTitleArray[data] }</p>
+            <p className="popup-title">{imgData?.sliderTitleArray[data]}</p>
             <div className="left" onClick={prev}>
               <AiOutlineLeft />
             </div>
